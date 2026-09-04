@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Outcome Statistics</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <h1>Most Common Outcomes</h1>
+  <table>
+    <tr><th>Outcome Type</th><th>Outcome Subtype</th><th>Total</th></tr>
+    {{#rows}}
+    <tr>
+      <td>{{outcome_type}}</td>
+      <td>{{outcome_subtype}}</td>
+      <td>{{total}}</td>
+    </tr>
+    {{/rows}}
+  </table>
+  <p><a href="./">Back</a></p>
+</body>
+</html>

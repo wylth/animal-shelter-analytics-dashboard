@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Monthly Outcomes</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <h1>Monthly Outcomes Over Time</h1>
+  <table>
+    <tr><th>Month</th><th>Total Outcomes</th></tr>
+    {{#rows}}
+    <tr>
+      <td>{{month}}</td>
+      <td>{{total}}</td>
+    </tr>
+    {{/rows}}
+  </table>
+  <p><a href="./">Back</a></p>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Euthanasia Counts by Sex</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <h1>Euthanasia Counts by Sex</h1>
+  <table>
+    <tr><th>Sex</th><th>Total</th></tr>
+    {{#rows}}
+    <tr>
+      <td>{{sex}}</td>
+      <td>{{total}}</td>
+    </tr>
+    {{/rows}}
+  </table>
+  <p><a href="./">Back</a></p>
+</body>
+</html>
